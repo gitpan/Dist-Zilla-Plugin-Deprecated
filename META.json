@@ -1,12 +1,16 @@
 {
-   "abstract" : "...",
+   "abstract" : "add metadata to your distribution marking it as deprecated",
    "author" : [
       "Karen Etheridge <ether@cpan.org>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Dist::Zilla version 5.030, CPAN::Meta::Converter version 2.143240",
    "keywords" : [
-      "..."
+      "plugin",
+      "metadata",
+      "module",
+      "distribution",
+      "deprecated"
    ],
    "license" : [
       "perl_5"
@@ -154,7 +158,7 @@
    "provides" : {
       "Dist::Zilla::Plugin::Deprecated" : {
          "file" : "lib/Dist/Zilla/Plugin/Deprecated.pm",
-         "version" : "0.001"
+         "version" : "0.002"
       }
    },
    "release_status" : "stable",
@@ -172,7 +176,7 @@
       "x_IRC" : "irc://irc.perl.org/#distzilla",
       "x_MailingList" : "http://dzil.org/#mailing-list"
    },
-   "version" : "0.001",
+   "version" : "0.002",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.021006"
@@ -634,7 +638,11 @@
             "config" : {
                "Dist::Zilla::Plugin::Keywords" : {
                   "keywords" : [
-                     "..."
+                     "plugin",
+                     "metadata",
+                     "module",
+                     "distribution",
+                     "deprecated"
                   ]
                }
             },
@@ -914,7 +922,7 @@
                "Dist::Zilla::Plugin::Git::Tag" : {
                   "branch" : null,
                   "signed" : 0,
-                  "tag" : "v0.001",
+                  "tag" : "v0.002",
                   "tag_format" : "v%v%t",
                   "tag_message" : "v%v%t",
                   "time_zone" : "local"
@@ -1056,6 +1064,9 @@
    },
    "x_authority" : "cpan:ETHER",
    "x_authority_from_module" : "Dist::Zilla::Plugin::Deprecated",
+   "x_contributors" : [
+      "Neil Bowers <neil@bowers.com>"
+   ],
    "x_permissions_from_module" : "Dist::Zilla::Plugin::Deprecated"
 }
 

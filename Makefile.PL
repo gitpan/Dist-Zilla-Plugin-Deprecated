@@ -64,7 +64,7 @@ use 5.006;
 use ExtUtils::MakeMaker;
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "...",
+  "ABSTRACT" => "add metadata to your distribution marking it as deprecated",
   "AUTHOR" => "Karen Etheridge <ether\@cpan.org>",
   "CONFIGURE_REQUIRES" => {
     "Module::Build::Tiny" => "0.039"
@@ -92,7 +92,7 @@ my %WriteMakefileArgs = (
     "Test::More" => 0,
     "if" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }

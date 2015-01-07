@@ -1,4 +1,9 @@
 Revision history for Dist-Zilla-Plugin-Deprecated
 
+0.002     2015-01-07 23:26:28Z
+
+          - Added abstract.
+          - Added more info to DESCRIPTION.
+
 0.001     2015-01-07 22:53:06Z
           - Initial release.

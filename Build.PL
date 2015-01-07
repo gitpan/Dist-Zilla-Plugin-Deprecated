@@ -73,12 +73,12 @@ EOW
         "Module::Build::Tiny" => "0.039",
         "perl" => "5.006"
       },
-      "dist_abstract" => "...",
+      "dist_abstract" => "add metadata to your distribution marking it as deprecated",
       "dist_author" => [
         "Karen Etheridge <ether\@cpan.org>"
       ],
       "dist_name" => "Dist-Zilla-Plugin-Deprecated",
-      "dist_version" => "0.001",
+      "dist_version" => "0.002",
       "license" => "perl",
       "module_name" => "Dist::Zilla::Plugin::Deprecated",
       "recommends" => {},

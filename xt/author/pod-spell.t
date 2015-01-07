@@ -13,6 +13,9 @@ __DATA__
 Karen
 Etheridge
 ether
+Neil
+Bowers
+neil
 lib
 Dist
 Zilla
